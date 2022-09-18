@@ -29,7 +29,7 @@ export const Product = styled("a", {
     left: "0.25rem",
     right: "0.25rem",
     padding: "2rem",
-    overflow: "hidden",
+    overflow: 'hidden',
 
     borderRadius: 6,
 
@@ -45,7 +45,7 @@ export const Product = styled("a", {
 
     strong: {
       fontSize: "$lg",
-      color: "$gray100",
+      color: '$gray100'
     },
 
     span: {
@@ -55,10 +55,10 @@ export const Product = styled("a", {
     },
   },
 
-  "&:hover": {
-    footer: {
-      transform: "translateY(0%)",
+  '&:hover': {
+    footer : {
+      transform: 'translateY(0%)',
       opacity: 1,
-    },
-  },
+    }
+  }
 });
